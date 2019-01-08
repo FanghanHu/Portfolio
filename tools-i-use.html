@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tools I use</title>
+    <meta name="description" content="description">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tools-i-use.css">
+
+
+    <style>
+        #browser-check {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div id="browser-check">
+        Your browser might display this web page incorrectly.
+    </div>
+    <script>
+        "use strict";
+        try {
+            eval("var foo = (x)=>x+1");
+        } catch (e) {
+            document.getElementById("browser-check").style.display = "block";
+        }
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <i><span>&lt;back</span></i>
+        </div>
+
+        <div id="evernote">
+            <!--the note book icon-->
+            <div id="notebook">
+                <div id="notebook-top"></div>
+                <div id="notebook-bottom">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div id="evernote-text">
+                <h5>Evernote:</h5>
+                <p>
+                    Evernote is a note book app, you can write text note on it, draw on it, and save photos on it,
+                    I use Evernote to keep track of my ideas, and it would sync my notes across all my devices.
+                </p>
+            </div>
+        </div>
+
+        <div id="photoshop">
+            <div id="photoshop-inner">
+                <h5>Photoshop:</h5>
+                <p>
+                    I use Photoshop for designing websites, I believe designing is the most important step in developing a website,
+                    and I rely on Photoshop to do it efficiently. Photoshop has a wide array of tools to help you align elements,
+                    mix and match colors and try out layouts.
+                    Using Photoshop to design websites can also hone your image editing skill which may become handy from time to time.
+                </p>
+            </div>
+        </div>
+
+        <div id="webstorm">
+            <div id="strip"
+            <h5>Webstorm:</h5>
+            <p>
+                Webstorm is an web development IDE, it packs the tools for project management, version control and live editing,
+                it understands major frameworks such as bootstrap, angular, node.js,
+                and can provide documents right away when you forget something. Webstorm is not a free software,
+                but it is worth every penny, I would recommend anyone that does web development for a living to try it out.
+            </p>
+        </div>
+        <div id="footer">
+            <span>Copyright 2019, Fanghan Hu</span>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    background-color: #282828;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.h5, p {
+    margin: 0;
+}
+
+.container {
+    background-color: #e7e7e8;
+    padding: 0;
+}
+
+#header > i {
+    margin-left: 2rem;
+}
+
+#evernote {
+    background-color: #57b87c;
+    padding: 6rem 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-items: center;
+    align-items: center;
+}
+
+#evernote-text {
+    grid-column: 2;
+
+}
+
+#notebook {
+    grid-column: 1;
+    background-color: #50a970;
+    width: 11rem;
+    height: 13rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+
+#notebook-top, #notebook-bottom > div {
+    background-color: #6ebf86;
+}
+
+#notebook-top {
+    width: 8.5rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    position: relative;
+    left: 1.25rem;
+    top: 2rem;
+}
+
+#notebook-bottom > div {
+    width: 8.5rem;
+    height: 0.5rem;
+    margin-top: 0.7rem;
+    border-radius: 0.2rem;
+}
+
+#notebook-bottom {
+    position: relative;
+    left: 1.25rem;
+    top: 3.5rem;
+
+}
+
+#photoshop {
+    background-color: #24bbeb;
+    padding: 1rem;
+}
+
+#photoshop-inner {
+    background-color: #00232c;
+    color: #24bbeb;
+    border-radius: 0.4rem;
+    padding: 5rem 10%;
+}
