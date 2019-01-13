@@ -198,7 +198,7 @@ p {
     background: #ffffff;
 }
 ::-webkit-scrollbar-thumb:active {
-    background: #000000;
+    background: #999999;
 }
 ::-webkit-scrollbar-track {
     background: #666666;
