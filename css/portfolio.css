@@ -157,6 +157,10 @@ body {
 /*my work end*/
 
 /*contact start*/
+#contact {
+    margin: 5rem auto;
+}
+
 #contact form {
     color: #666a76;
     margin: 1rem auto;
@@ -164,9 +168,6 @@ body {
     display: grid;
     grid-template-columns: 25% 65% 10%;
     row-gap: 1rem;
-}
-
-#contact input{
 }
 
 #contact label {
@@ -188,7 +189,40 @@ body {
     background-color: #666a76;
     border: none;
     border-radius: 0.5rem;
+    resize: none;
+}
 
+#contact textarea::-webkit-scrollbar {
+    width: 10px;
+}
+#contact textarea::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+#contact textarea::-webkit-scrollbar-thumb {
+    background: #7e828e;
+    border: 0 none #666a76;
+    border-radius: 50px;
+}
+#contact textarea::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+#contact textarea::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+}
+#contact textarea::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0 none #ffffff;
+    border-radius: 50px;
+}
+#contact textarea::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+#contact textarea::-webkit-scrollbar-track:active {
+    background: #404040;
+}
+#contact textarea::-webkit-scrollbar-corner {
+    background: transparent;
 }
 
 #contact input {
@@ -213,7 +247,11 @@ body {
     width: 8rem;
 }
 
+/*contact end*/
+
+/*footer start*/
 #footer {
     color: white;
     text-align: center;
 }
+/*footer end*/
