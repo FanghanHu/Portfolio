@@ -69,22 +69,22 @@
                     it uses bootstrap for it’s layout, and javascript to calculate the perk points.
                 </p>
                 <div class="work-link">
-                    <a>Visit</a>
-                    <a>View Code</a>
+                    <div><a>Visit</a></div>
+                    <div><a>View Code</a></div>
                 </div>
             </div>
         </div>
 
         <div class="work-container">
             <div class="work-text">
-                <h3>Fallout 76 character builder:</h3>
+                <h3>Web develop tools:</h3>
                 <p>
-                    This website is a online character builder I made in my spare time,
-                    it uses bootstrap for it’s layout, and javascript to calculate the perk points.
+                    I made this web page to show case the tools I used for web development,
+                    it’s also a display of my ability to imitate other styles
                 </p>
                 <div class="work-link">
-                    <a>Visit</a>
-                    <a>View Code</a>
+                    <div><a>Visit</a></div>
+                    <div><a>View Code</a></div>
                 </div>
             </div>
             <div class="work-img-container">
@@ -94,11 +94,29 @@
     </div>
 
     <div id="contact">
-
+        <h2>Contact Me</h2>
+        <form action="javascript:void(0);">
+            <label for="subject">Subject :</label>
+            <input type="text" id="subject" name="subject" maxlength="100" autocomplete="off"><br>
+            <label for="message">Message : </label>
+            <textarea id="message" name="body" maxlength="2500"></textarea><br>
+            <div id="submit-div">
+                <input type="submit" value="Send" id="submit">
+            </div>
+        </form>
     </div>
 
-    <div id="footer">
+    <script>
+        $("#submit").click(function () {
+            let subject = $("#subject").val();
+            let message = $("#message").val();
+            let url = "mailto:Fanghan.Hu@gmail.com?subject=" + subject + "&body=" + message;
+            window.location.href=url;
+        });
+    </script>
 
+    <div id="footer">
+        <span>Copyright 2019, Fanghan Hu</span>
     </div>
 
 </div>
