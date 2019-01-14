@@ -45,15 +45,19 @@ body {
     padding-top: 4rem;
     padding-bottom: 3rem;
     position: relative;
-    background-color: #5a6268;
-    background-image: url("../images/stars.jpg");
-    background-size: cover;
     color: white;
+    overflow: hidden;
+    background-image: url("../images/stars.jpg");
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-position-x: calc(50vw - 600px);
 }
+
 
 #introduction::before {
     content: "";
     position: absolute;
+    z-index: 1;
     top: 0;
     width: 100%;
     height: 100%;
@@ -62,18 +66,42 @@ body {
             rgba(39,41,46,1) 100%);
 }
 
-#introduction-text {
+#introduction-container {
     /*the text container*/
     position: relative;
-    z-index: 1;
     margin: 2rem 5rem;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0 0.5rem 0.5rem 0;
-    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+#logo {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 15rem;
+    height: 15rem;
+    margin: 1rem;
+    background-image: url("../images/stars.jpg");
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-position-x: calc(50vw - 600px);
+    clip-path: polygon(51% 52%, 44% 66%, 59% 85%, 96% 61%, 68% 10%, 11% 29%, 4% 87%, 40% 84%, 36% 50%, 55% 40%, 69% 57%, 63% 67%, 52% 64%);
+}
+
+
+#introduction-text {
+    margin: 1rem;
+}
+
+#introduction-text p {
+    color: #b4b4b4;
 }
 
 #introduction h1 {
     font-family: "Lobster Two", cursive;
+    margin-bottom: 2rem;
 }
 /*introduction end*/
 
