@@ -29,11 +29,11 @@ body {
 }
 
 .work-nav a{
-  text-shadow: 1px 1px 50px black;
+  text-shadow: 1px 1px 30px black;
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
-  color: lightgray;
+  color: darkgray;
   transition: all 0.3s;
   vertical-align: middle;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .work-nav a:hover, .work-nav.active a:hover {
-  color: darkgray;
+  color: #555;
   text-decoration: none;
 }
 
