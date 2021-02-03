@@ -15,7 +15,7 @@ const works = [
         images: [petResume1, petResume2, petResume3],
         captions: (
             <>
-                <h3>Pet Resume</h3>
+                <h3 className="text-white">Pet Resume</h3>
                 <p className="w-100">
                     A website that provides dog breed information, user can search
                     for a specific breed or check out random dog breeds.
