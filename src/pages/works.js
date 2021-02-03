@@ -20,7 +20,7 @@ const works = [
     },
     {
         id: "pet-resume2",
-        name: "page2",
+        name: "a very long name",
         images: [petResume2, petResume3],
         captions: (
             <>

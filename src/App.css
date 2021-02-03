@@ -23,11 +23,13 @@ body {
 }
 
 .work-nav {
-  margin: 1em 0;
+  position: relative;
+  margin: 1em auto;
+  max-width: 11rem;
 }
 
 .work-nav a{
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px 50px black;
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -36,12 +38,53 @@ body {
   vertical-align: middle;
 }
 
-.work-nav a:hover {
+.work-nav a::before{
+  content: "";
+  width: 0;
+  transition: all 0.5s;
+  position: absolute;
+  left: -2rem;
+  top: 60%;
+}
+
+
+.work-nav.active a::before{
+  content: "";
+  background-color: lightgray;
+  width: 2rem;
+  height: 2px;
+  margin: 0 5px;
+  transition: all 0.5s;
+  left: 100%;
+}
+
+.work-nav a::after{
+  content: "";
+  width: 0;
+  transition: all 0.5s;
+  position: absolute;
+  right: -2rem;
+  top: 60%;
+}
+
+
+.work-nav.active a::after{
+  content: "";
+  background-color: lightgray;
+  width: 2rem;
+  height: 2px;
+  margin: 0 5px;
+  transition: all 0.5s;
+  right: 100%;
+}
+
+.work-nav a:hover, .work-nav.active a:hover {
   color: darkgray;
   text-decoration: none;
 }
 
 .work-nav.active a{
+  color: white;
   line-height: 2rem;
   font-size: 2rem;
   transition: all 0.3s;
