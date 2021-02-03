@@ -9,22 +9,22 @@ import petResume3 from '../assets/imgs/PetResume3.png';
 const works = [
     {
         id: "pet-resume",
-        name: "page1",
-        images: [petResume1],
+        name: "Pet Resume",
+        images: [petResume1, petResume2, petResume3],
         captions: (
             <>
-                <h3>Captions</h3>
+                <h3>Pet Resume</h3>
                 <p>asdasdasdasds</p>
             </>
         )
     },
     {
         id: "pet-resume2",
-        name: "a very long name",
-        images: [petResume2, petResume3],
+        name: "Pet Resume2",
+        images: [petResume1, petResume2, petResume3],
         captions: (
             <>
-                <h3>Captions</h3>
+                <h3>Pet Resume</h3>
                 <p>asdasdasdasds</p>
             </>
         )
@@ -44,14 +44,15 @@ export default function Works(props) {
                     scrollBehavior: "smooth"
                 }}>
 
-                <div className="d-flex flex-column justify-content-center h-100"
+                <div className="d-flex flex-column justify-content-center"
                 style={{
                     position: 'fixed',
                     left: "3em",
                     zIndex: "99",
-                    margin: "auto auto",
                     width: "15em",
-                    textAlign:"center"
+                    textAlign:"center",
+                    top:"50%",
+                    transform: "translateY(-50%)"
                 }}>
                     <Scrollspy items={works.map(work => work.id)}
                         currentClassName="active"
