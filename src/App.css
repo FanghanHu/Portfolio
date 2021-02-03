@@ -22,6 +22,16 @@ body {
   position: absolute;
 }
 
+.work-navbar {
+  position: fixed;
+  left: 3em;
+  z-index: 99;
+  width: 15em;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .work-nav {
   position: relative;
   margin: 1em auto;
@@ -88,4 +98,53 @@ body {
   line-height: 2rem;
   font-size: 2rem;
   transition: all 0.3s;
+}
+
+/* small devices */
+@media only screen and (max-width: 768px) {
+  .work-navbar {
+    background: rgba(0, 0, 0, 0.3);
+    left: 0.5rem;
+    width: 1.4rem;
+    padding: 0.2em;
+    border-radius: 5px;
+  }
+  
+  .work-nav a{
+    display: block;
+    color: transparent;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    text-shadow: none;
+    background: lightgray;
+    border-radius: 50%;
+  }
+
+  .work-nav.active a{
+    color: transparent;
+    background: white;
+  }
+  
+  .work-nav a::before{
+    content: none;
+  }
+  
+  .work-nav.active a::before{
+    content: none;
+  }
+  
+  .work-nav a::after{
+    content: none;
+  }
+  
+  .work-nav.active a::after{
+    content: none;
+  }
+  
+  .work-nav a:hover, .work-nav.active a:hover {
+    color: transparent;
+    background: gray;
+  }
+
 }

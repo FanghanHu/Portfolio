@@ -14,7 +14,11 @@ const works = [
         captions: (
             <>
                 <h3>Pet Resume</h3>
-                <p>A website for you to </p>
+                <p className="w-100">
+                    A website that provides dog breed information, user can search
+                    for a specific breed or check out random dog breeds.
+                    one or multiple pictures and a brief summary is provided for every breed.
+                </p>
             </>
         )
     },
@@ -44,16 +48,7 @@ export default function Works(props) {
                     scrollBehavior: "smooth"
                 }}>
 
-                <div className="d-flex flex-column justify-content-center"
-                style={{
-                    position: 'fixed',
-                    left: "3em",
-                    zIndex: "99",
-                    width: "15em",
-                    textAlign:"center",
-                    top:"50%",
-                    transform: "translateY(-50%)"
-                }}>
+                <div className="work-navbar d-flex flex-column justify-content-center">
                     <Scrollspy items={works.map(work => work.id)}
                         currentClassName="active"
                         scrolledPastClassName="past"

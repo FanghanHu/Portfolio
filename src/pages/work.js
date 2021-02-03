@@ -36,7 +36,8 @@ export default function work({id, images, children }) {
                 color: "#ccc",
                 position: "absolute",
                 padding: "2em",
-                borderRadius: "1em"
+                borderRadius: "1em",
+                maxWidth: "90%"
             }}>
                 {children}
             </div>
