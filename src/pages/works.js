@@ -40,23 +40,24 @@ export default function Works(props) {
                     height: "100VH",
                     overflowY: "auto",
                     scrollSnapType: "y mandatory",
-                    position: "relative"
+                    position: "relative",
+                    scrollBehavior: "smooth"
                 }}>
 
-                <div className="d-flex flex-column justify-content-center h-100">
+                <div className="d-flex flex-column justify-content-center h-100"
+                style={{
+                    position: 'fixed',
+                    left: "3em",
+                    zIndex: "99",
+                    margin: "auto auto",
+                    width: "15em",
+                    textAlign:"center"
+                }}>
                     <Scrollspy items={works.map(work => work.id)}
                         currentClassName="active"
                         scrolledPastClassName="past"
                         rootEl="#spy-root"
-                        style={{
-                            position: 'fixed',
-                            left: "3em",
-                            zIndex: "99",
-                            margin: "auto auto",
-                            listStyle: "none",
-                            width: "15em",
-                            textAlign:"center"
-                        }}
+                        className="list-unstyled"
                     >
                         {works.map((work, index) => {
                             return (
