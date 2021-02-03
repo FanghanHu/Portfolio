@@ -29,16 +29,7 @@ export default function work({id, images, children }) {
                     );
                 })}
             </Carousel>
-            <div style={{
-                background: "rgba(0,0,0,0.6)",
-                bottom: "3.5em",
-                right: "5%",
-                color: "#ccc",
-                position: "absolute",
-                padding: "2em",
-                borderRadius: "1em",
-                maxWidth: "90%"
-            }}>
+            <div className="work-caption">
                 {children}
             </div>
         </div>

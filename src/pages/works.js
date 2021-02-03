@@ -48,7 +48,7 @@ export default function Works(props) {
                     scrollBehavior: "smooth"
                 }}>
 
-                <div className="work-navbar d-flex flex-column justify-content-center">
+                <div className="work-navbar d-flex flex-column justify-content-center ">
                     <Scrollspy items={works.map(work => work.id)}
                         currentClassName="active"
                         scrolledPastClassName="past"
