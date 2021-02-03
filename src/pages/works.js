@@ -14,7 +14,7 @@ const works = [
         captions: (
             <>
                 <h3>Pet Resume</h3>
-                <p>asdasdasdasds</p>
+                <p>A website for you to </p>
             </>
         )
     },
