@@ -2,6 +2,8 @@ import React from 'react';
 import Work from './work';
 import Scrollspy from 'react-scrollspy';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import petResume1 from '../assets/imgs/PetResume1.png';
 import petResume2 from '../assets/imgs/PetResume2.png';
 import petResume3 from '../assets/imgs/PetResume3.png';
@@ -19,6 +21,26 @@ const works = [
                     for a specific breed or check out random dog breeds.
                     one or multiple pictures and a brief summary is provided for every breed.
                 </p>
+                <div className="m-1 float-left">
+                        <FontAwesomeIcon icon={["fab", 'github']}/>
+                        <a 
+                        href="https://github.com/FanghanHu/petResume"
+                        className="p-1 text-light"
+                        target="_blank" 
+                        rel="noreferrer">
+                            Source code
+                        </a>
+                    </div>
+                    <div className="m-1 float-right">
+                        <FontAwesomeIcon icon={["fas", 'globe']}/>
+                        <a 
+                        href="https://fanghanhu.github.io/petResume" 
+                        className="p-1 text-light"
+                        target="_blank" 
+                        rel="noreferrer">
+                            visit
+                        </a>
+                    </div>
             </>
         )
     },
