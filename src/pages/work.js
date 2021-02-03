@@ -1,13 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 
-export default function work({ images, children }) {
+export default function work({id, images, children }) {
     if(!images) {
         return null;
     }
 
     return (
-        <div className="work"  style={{
+        <div id={id} className="work"  style={{
             position: "relative",
             width: "calc(100vw - ((100vw - 100%)))",
             height: "calc(100vh - ((100vh - 100%)))",
