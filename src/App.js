@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import Works from './pages/works';
+import Contact from "./pages/contact";
 import PageNavbar from './components/pageNavbar';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <PageNavbar pages={[["/", "Works"],["/contact", "Contact"]]}/>
         <Route path="/" exact component={Works}/>
+        <Route path="/contact" exact component={Contact}/>
       </Router>
     </Container>
   );

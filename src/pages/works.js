@@ -4,22 +4,22 @@ import Scrollspy from 'react-scrollspy';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import petResume1 from '../assets/imgs/PetResume1.png';
-import petResume2 from '../assets/imgs/PetResume2.png';
-import petResume3 from '../assets/imgs/PetResume3.png';
-import chirper1 from '../assets/imgs/Chirper1.png';
-import chirper2 from '../assets/imgs/Chirper2.png';
-import chirper3 from '../assets/imgs/Chirper3.png';
-import chirper4 from '../assets/imgs/Chirper4.png';
-import chirper5 from '../assets/imgs/Chirper5.png';
-import chirper6 from '../assets/imgs/Chirper6.png';
-import chirper7 from '../assets/imgs/Chirper7.png';
-import chirper8 from '../assets/imgs/Chirper8.png';
-import fo1 from '../assets/imgs/fo76db1.png';
-import fo2 from '../assets/imgs/fo76db2.png';
-import gmp1 from '../assets/imgs/gmp1.png';
-import gmp2 from '../assets/imgs/gmp2.png';
-import gmp3 from '../assets/imgs/gmp3.png';
+import petResume1 from '../assets/imgs/PetResume1-min.png';
+import petResume2 from '../assets/imgs/PetResume2-min.png';
+import petResume3 from '../assets/imgs/PetResume3-min.png';
+import chirper1 from '../assets/imgs/Chirper1-min.png';
+import chirper2 from '../assets/imgs/Chirper2-min.png';
+import chirper3 from '../assets/imgs/Chirper3-min.png';
+import chirper4 from '../assets/imgs/Chirper4-min.png';
+import chirper5 from '../assets/imgs/Chirper5-min.png';
+import chirper6 from '../assets/imgs/Chirper6-min.png';
+import chirper7 from '../assets/imgs/Chirper7-min.png';
+import chirper8 from '../assets/imgs/Chirper8-min.png';
+import fo1 from '../assets/imgs/fo76db1-min.png';
+import fo2 from '../assets/imgs/fo76db2-min.png';
+import gmp1 from '../assets/imgs/gmp1-min.png';
+import gmp2 from '../assets/imgs/gmp2-min.png';
+import gmp3 from '../assets/imgs/gmp3-min.png';
 
 const works = [
     {
