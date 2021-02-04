@@ -9,6 +9,7 @@ export default function PageNavbar(props) {
             {props.pages?props.pages.map(page => {
                 return (
                     <PageNav 
+                        key={page[1]}
                         activePage={activePage} 
                         setActivePage={setActivePage}
                         path={page[0]}
