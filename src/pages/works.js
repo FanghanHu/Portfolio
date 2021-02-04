@@ -1,5 +1,5 @@
 import React from 'react';
-import Work from './work';
+import Work from '../components/work';
 import Scrollspy from 'react-scrollspy';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
