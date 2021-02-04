@@ -23,13 +23,14 @@ body {
 }
 
 .work-navbar {
+  background-image: linear-gradient(to right, transparent, 15%, rgba(0,0,0,0.3), 85%,transparent);
   position: fixed;
   left: 3em;
   z-index: 99;
   width: 15em;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 4em 0;
+  height: 100VH;
 }
 
 .work-nav {
@@ -43,7 +44,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
-  color: darkgray;
+  color: #ddd;
   transition: all 0.3s;
   vertical-align: middle;
 }
@@ -101,16 +102,6 @@ body {
 }
 
 .work-caption {
-  /* style={{
-    background: "rgba(0,0,0,0.6)",
-    bottom: "3.5em",
-    right: "5%",
-    color: "#ccc",
-    position: "absolute",
-    padding: "2em",
-    borderRadius: "1em",
-    maxWidth: "calc(95% - 2.5rem)"
-}} */
   background: rgba(0,0,0,0.6);
   bottom: 3.5em;
   right: 5%;
@@ -129,6 +120,9 @@ body {
     width: 1.4rem;
     padding: 0.2em;
     border-radius: 5px;
+    height: unset;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   .work-nav a{
