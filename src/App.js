@@ -14,7 +14,7 @@ library.add(fab, fas);
 function App() {
   return (
     <Container fluid className="p-0">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <PageNavbar pages={[["/", "Works"],["/contact", "Contact"]]}/>
         <Route path="/" exact component={Works}/>
         <Route path="/contact" exact component={Contact}/>
