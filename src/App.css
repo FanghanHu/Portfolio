@@ -22,6 +22,58 @@ body {
   position: absolute;
 }
 
+.page-navbar {
+  margin: 0.5rem auto;
+  position: fixed;
+  list-style: none;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.3em;
+}
+
+.page-nav {
+  float: left;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.page-nav a {
+  color: lightgray;
+  transition: all 0.3s;
+}
+
+.page-nav.active a {
+  color: white;
+}
+
+.page-nav a:hover {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.page-nav a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.page-nav.active a::after {
+  content: "";
+  width: 100%;
+  left: 0;
+  transition: all 0.5s;
+}
+
 .work-navbar {
   background-image: linear-gradient(to right, transparent, 15%, rgba(0,0,0,0.3), 85%,transparent);
   position: fixed;
