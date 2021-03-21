@@ -38,7 +38,11 @@ const works = [
             <>
                 <h3 className="text-white">Chirper POS</h3>
                 <p className="w-100">
-                    Syrup POS is a Point of Sale System designed for small to medium restaurants, it helps the restaurant to manage their order, payment, and customer records, it also generates reports to make the daily settlement process easier.
+                    Syrup POS is a Point of Sale System designed for small to medium restaurants, 
+                    it helps the restaurant to manage their order, payment, and customer records, 
+                    it also generates reports to make the daily settlement process easier. 
+                    SyrupPOS is a PWA, which means it can be installed on your phone, tablet or PC.
+                    click the visit link to give it a try, the default access code is 0.
                 </p>
                 <div className="m-1 float-left">
                         <FontAwesomeIcon icon={["fab", 'github']}/>
