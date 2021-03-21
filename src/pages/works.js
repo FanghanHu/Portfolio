@@ -36,7 +36,7 @@ const works = [
         images: [syrup1, syrup2, syrup3, syrup4, syrup5, syrup6, syrup7, syrup8],
         captions: (
             <>
-                <h3 className="text-white">Chirper POS</h3>
+                <h3 className="text-white">SyrupPOS</h3>
                 <p className="w-100">
                     Syrup POS is a Point of Sale System designed for small to medium restaurants, 
                     it helps the restaurant to manage their order, payment, and customer records, 
