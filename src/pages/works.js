@@ -20,8 +20,49 @@ import fo2 from '../assets/imgs/fo76db2-min.png';
 import gmp1 from '../assets/imgs/gmp1-min.png';
 import gmp2 from '../assets/imgs/gmp2-min.png';
 import gmp3 from '../assets/imgs/gmp3-min.png';
+import syrup1 from '../assets/imgs/SyrupPOS1-min.png';
+import syrup2 from '../assets/imgs/SyrupPOS2-min.png';
+import syrup3 from '../assets/imgs/SyrupPOS3-min.png';
+import syrup4 from '../assets/imgs/SyrupPOS4-min.png';
+import syrup5 from '../assets/imgs/SyrupPOS5-min.png';
+import syrup6 from '../assets/imgs/SyrupPOS6-min.png';
+import syrup7 from '../assets/imgs/SyrupPOS7-min.png';
+import syrup8 from '../assets/imgs/SyrupPOS8-min.png';
 
 const works = [
+    {
+        id: "syrup",
+        name: "SyrupPOS",
+        images: [syrup1, syrup2, syrup3, syrup4, syrup5, syrup6, syrup7, syrup8],
+        captions: (
+            <>
+                <h3 className="text-white">Chirper POS</h3>
+                <p className="w-100">
+                    Syrup POS is a Point of Sale System designed for small to medium restaurants, it helps the restaurant to manage their order, payment, and customer records, it also generates reports to make the daily settlement process easier.
+                </p>
+                <div className="m-1 float-left">
+                        <FontAwesomeIcon icon={["fab", 'github']}/>
+                        <a 
+                        href="https://github.com/FanghanHu/Syrup"
+                        className="p-1 text-light"
+                        target="_blank" 
+                        rel="noreferrer">
+                            Source code
+                        </a>
+                    </div>
+                    <div className="m-1 float-right">
+                        <FontAwesomeIcon icon={["fas", 'globe']}/>
+                        <a 
+                        href="https://syrup-pos.herokuapp.com/" 
+                        className="p-1 text-light"
+                        target="_blank" 
+                        rel="noreferrer">
+                            visit
+                        </a>
+                    </div>
+            </>
+        )
+    },
     {
         id: "chirper",
         name: "Chirper POS",
