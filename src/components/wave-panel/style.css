@@ -1,0 +1,15 @@
+header {
+    background: linear-gradient(50deg, rgb(107, 199, 224), rgb(73, 193, 223));
+    min-height: 400px;
+}
+
+main {
+    background: #fff;
+    min-height: 600px;
+    position: relative;
+}
+
+footer {
+    background: #aaa;
+    min-height: 2em;
+}
