@@ -23,6 +23,22 @@
 	animation-delay: -5s;
 	animation-duration: 20s;
 }
+.parallax > use:nth-child(5) {
+	animation-delay: -6s;
+	animation-duration: 7s;
+}
+.parallax > use:nth-child(6) {
+	animation-delay: -7s;
+	animation-duration: 10s;
+}
+.parallax > use:nth-child(7) {
+	animation-delay: -8s;
+	animation-duration: 13s;
+}
+.parallax > use:nth-child(8) {
+	animation-delay: -9s;
+	animation-duration: 20s;
+}
 @keyframes move-forever {
 	0% {
 		transform: translate3d(-90px, 0, 0);

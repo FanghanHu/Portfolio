@@ -20,7 +20,7 @@ export default function Waves({waveCount=4}) {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 28 150 28">
             <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                <path id="gentle-wave" d="M-160 44 c30 0 58 -12 88 -12 s58 12 88 12 58 -12 88 -12 58 12 88 12 v44h-352z" />
             </defs>
             <g className="parallax">
                 {waves.map(wave => wave)}
