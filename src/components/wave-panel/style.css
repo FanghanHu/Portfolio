@@ -5,8 +5,9 @@ header {
 
 main {
     background: #fff;
-    min-height: 600px;
     position: relative;
+    min-height: 200px;
+    transition: height 0.75s ease-out;
 }
 
 footer {
