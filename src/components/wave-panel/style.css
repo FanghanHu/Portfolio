@@ -13,3 +13,7 @@ footer {
     background: #aaa;
     min-height: 2em;
 }
+
+nav div {
+    margin: 0 10px;
+}

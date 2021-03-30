@@ -8,6 +8,19 @@ export default function WavePanel() {
     return (
         <Container>
             <header>
+                <nav className="p-2 d-flex flex-wrap text-white justify-content-between">
+                    <div className="d-flex flex-wrap">
+                        <h5>My Projects:</h5>
+                        <div>SyrupPOS</div>
+                        <div>Fallout64 Deck Builder</div>
+                        <div>Pet Resume</div>
+                        <div>GMP Website</div>
+                    </div>
+                    <div className="d-flex flex-wrap h5">
+                        <div>About Me</div>
+                        <div>Contact</div>
+                    </div>
+                </nav>
                 <TypeWriterText className="mx-auto h1" 
                     text="Fanghan Hu" 
                     style={{
@@ -21,7 +34,9 @@ export default function WavePanel() {
                 <Waves/>
             </main>
             <footer>
-
+                <div className="text-center text-white p-2">
+                    Fanghan Hu | 2021
+                </div>
             </footer>
         </Container>
     )
