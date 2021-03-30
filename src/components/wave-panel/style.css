@@ -14,6 +14,18 @@ footer {
     min-height: 2em;
 }
 
-nav>div>div {
+.nav-button {
     margin: 0 10px;
+    transition: text-shadow 0.5s;
+    user-select: none;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    text-shadow: gray 0 0 5px;
+    
+}
+
+.nav-button:active {
+    color: gray;
 }

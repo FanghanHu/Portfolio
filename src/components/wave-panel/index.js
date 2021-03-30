@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
+import NavButton from "../nav-button";
 import TypeWriterText from "../typewriter-text";
 import Waves from "../waves";
 import "./style.css";
@@ -14,14 +15,14 @@ export default function WavePanel() {
                 <nav className="p-2 d-flex flex-wrap text-white justify-content-between">
                     <div className="d-flex flex-wrap mb-1">
                         <div className="h5">My Projects:</div>
-                        <div onClick={() => {setTitle("SyrupPOS")}}>SyrupPOS</div>
-                        <div>Pet Resume</div>
-                        <div onClick={() => {setTitle("Fallout64 Deck Builder")}}>Fallout64 Deck Builder</div>
-                        <div>GMP Website</div>
+                        <NavButton text="SyrupPOS" targetId="syrup-pos" setTitle={setTitle}/>
+                        <NavButton text="Pet Resume" targetId="pet-resume" setTitle={setTitle}/>
+                        <NavButton text="Fallout64 Deck Builder" targetId="fallout-64-deck-builder" setTitle={setTitle}/>
+                        <NavButton text="GMP Website" targetId="gmp-website" setTitle={setTitle}/>
                     </div>
                     <div className="d-flex flex-wrap h5">
-                        <div>About Me</div>
-                        <div>Contact</div>
+                        <NavButton text="About Me" targetId="about-me" title="Fanghan Hu" setTitle={setTitle}/>
+                        <NavButton text="Contact" targetId="contact" setTitle={setTitle}/>
                     </div>
                 </nav>
                 <TypeWriterText className="mx-auto h1" 
