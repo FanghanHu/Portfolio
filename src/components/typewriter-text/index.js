@@ -24,7 +24,7 @@ export default function TypeWriterText({text="please enter text", textColor="#00
     }, [text]);
     
     return (
-        <div style={{...style, width:"fit-content"}} {...restOfProps}>
+        <div style={{...style, width:"fit-content", maxWidth:"100%", overflow:"hidden"}} {...restOfProps}>
             <div
                 style={{
                     width: 0,
