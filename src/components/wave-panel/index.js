@@ -54,7 +54,7 @@ export default function WavePanel() {
                 </main>
             </Tab.Container>
             <footer>
-                <div className="text-center text-white p-2">
+                <div className="text-center text-white">
                     Fanghan Hu | 2021
                 </div>
             </footer>

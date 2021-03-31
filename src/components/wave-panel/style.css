@@ -6,13 +6,13 @@ header {
 main {
     background: #fff;
     position: relative;
-    min-height: 200px;
+    min-height: calc(100VH - 400px - 2em);
     transition: height 0.75s ease-out;
 }
 
 footer {
     background: #aaa;
-    min-height: 2em;
+    height: 2em;
 }
 
 .nav-button {
