@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Nav, Tab } from "react-bootstrap";
 import SyrupPOS from "../../pages/syrup-pos";
 import PetResume from "../../pages/pet-resume";
-import Fallout64DeckBuilder from "../../pages/fallout64-deck-builder";
+import Fallout76DeckBuilder from "../../pages/fallout76-deck-builder";
 import GMPWebsite from "../../pages/gmp-website";
 import AboutMe from "../../pages/about-me";
 import Contact from "../../pages/contact";
@@ -24,7 +24,7 @@ export default function WavePanel() {
                             <div className="h5">My Projects:</div>
                             <NavButton text="SyrupPOS" eventKey="syrup-pos" setTitle={setTitle}/>
                             <NavButton text="Pet Resume" eventKey="pet-resume" setTitle={setTitle}/>
-                            <NavButton text="Fallout64 Deck Builder" eventKey="fallout-64-deck-builder" setTitle={setTitle}/>
+                            <NavButton text="Fallout76 Deck Builder" eventKey="fallout-76-deck-builder" setTitle={setTitle}/>
                             <NavButton text="GMP Website" eventKey="gmp-website" setTitle={setTitle}/>
                         </div>
                         <div className="d-flex flex-wrap h5">
@@ -46,7 +46,7 @@ export default function WavePanel() {
                     <Tab.Content>
                         <SyrupPOS/>
                         <PetResume/>
-                        <Fallout64DeckBuilder/>
+                        <Fallout76DeckBuilder/>
                         <GMPWebsite/>
                         <AboutMe/>
                         <Contact/>
