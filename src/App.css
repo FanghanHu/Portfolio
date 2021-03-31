@@ -9,3 +9,11 @@ body {
 .paragraph {
   text-indent: 2em;
 }
+
+.text-sky-blue {
+  color: rgb(107, 199, 224);
+}
+
+a {
+  overflow-wrap: break-word;
+}
