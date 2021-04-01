@@ -9,18 +9,18 @@ export default function Contact() {
                 <Row>
                     <Col xs="12" md="6">
                     <div className="p-2 h5 paragraph">
-                        <div className="h3">Open to work: </div>
+                        <div className="h3"><FontAwesomeIcon className="text-primary" icon="briefcase"/> Open to work: </div>
                         I am currently looking for a web or mobile developer job, 
                         can be front-end, back-end, or full-stack, junior to mid level.
                         I appreciate your time and oppertunities.
                     </div>
                     <div className="h5 p-2 paragraph">
-                        <div className="h3">Freelance: </div>
+                        <div className="h3"><FontAwesomeIcon className="text-primary" icon="dragon"/> Freelance: </div>
                         I am also freelancing on <a href="https://www.fiverr.com/fanghanhu" target="_blank" rel="noreferrer">Fiverr</a>,
                         feel free to PM, text, or email me if there is anything I can help.
                     </div>
                     <div className="h5 p-2 paragraph">
-                        <div className="h3">Skills: </div>
+                        <div className="h3"><FontAwesomeIcon className="text-primary" icon="address-card"/> Skills: </div>
                         Here is what I can do: Android, React, Node, Express, 
                         MySQL, MongoDB, Bootstrap, Materialize, jQuery,
                         Java, JavaScript, Typescript, Python, C#, HTML, CSS, Photoshop.
