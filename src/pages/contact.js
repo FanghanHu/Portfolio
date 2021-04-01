@@ -24,7 +24,7 @@ export default function Contact() {
                         Here is what I can do: Android, React, Node, Express, 
                         MySQL, MongoDB, Bootstrap, Materialize, jQuery,
                         Java, JavaScript, Typescript, Python, C#, HTML, CSS, Photoshop.
-                        Please check out my resume to see the details: <span className="text-nowrap"><FontAwesomeIcon className="text-secondary" icon="file-pdf"/> fanghan_hu_resume.pdf</span>
+                        Please check out my resume to see the details: <span className="text-nowrap"><FontAwesomeIcon className="text-secondary" icon="file-pdf"/> <a href={process.env.PUBLIC_URL + "/Fanghan_Hu_Resume.pdf"} download>Fanghan_Hu_Resume.pdf</a></span>
                     </div>
                     </Col>
                     <Col xs="12" md="6" className="h3 text-nowrap d-flex flex-column justify-content-center p-1 px-md-5">
