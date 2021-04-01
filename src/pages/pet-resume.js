@@ -12,7 +12,6 @@ export default function PetResume() {
     return (
         <Tab.Pane eventKey="pet-resume">
             <Container>
-                
                 <Row className="py-2 p-md-5">
                     <Col xs="12" md="6" className="my-3 mt-md-5">
                         <Slider images={[
