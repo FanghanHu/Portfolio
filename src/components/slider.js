@@ -9,7 +9,16 @@ export default function Slider({images, key="key"}) {
                 {images.map((image, index) => {
                     return (
                         <Carousel.Item key={key + "-" + index}>
-                            <Suspense fallback={<img src="http://placehold.it/64x64" alt="placehodler"/>}>
+                            <Suspense fallback={
+                                <div style={{
+                                    width:"100%",
+                                    height: "100%",
+                                    fontSize: "3rem",
+                                    textAlign: "center"
+                                }}>
+                                    Loading...
+                                </div>
+                            }>
                                 <image.src width="100%" alt={image.alt} onClick={() => {setSelected(image)}}/>
                             </Suspense>
                         </Carousel.Item>

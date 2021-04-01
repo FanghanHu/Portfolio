@@ -1,3 +1,4 @@
+import IconLink from '../components/icon-link';
 import { lazy, Suspense, useState } from "react";
 import { Button, Col, Container, Row, Tab, Collapse} from "react-bootstrap";
 import Slider from "../components/slider";
@@ -19,7 +20,13 @@ export default function SyrupPOS() {
     return (
         <Tab.Pane eventKey="syrup-pos">
             <Container>
-                <Row>
+                <Row className="py-2 p-md-5">
+                    <Col xs="12" md="6" className="my-3 mt-md-5">
+                        <Slider images={[
+                            {src: Syrup9, alt:"landing page"},
+                            {src: Syrup8, alt:"login page"}
+                            ]}/>
+                    </Col>
                     <Col xs="12" md="6">
                         <VerticalCenter>
                             <div className="content-text paragraph">
@@ -27,24 +34,30 @@ export default function SyrupPOS() {
                             </div>
                         </VerticalCenter>
                     </Col>
-                    <Col xs="12" md="6" className="mt-5">
-                        <Slider images={[
-                            {src: Syrup9, alt:"landing page"},
-                            {src: Syrup8, alt:"login page"}
-                            ]}/>
-                    </Col>
-                    <Col xs="12" md="6" className="mt-5">
+                </Row>
+                <hr/>
+                <Row className="py-2 p-md-5">
+                    <Col xs="12" md="6" className="my-3 mt-md-5">
                         <Slider images={[
                             {src: Syrup3, alt:"order types"},
                             {src: Syrup7, alt:"customer info"}
                             ]}/>
                     </Col>
-                    <Col xs="12" md="6">
+                    <Col xs="12" md={{span: 6, order: "first"}}>
                         <VerticalCenter>
                             <div className="content-text paragraph">
                                 SyrupPOS can be used to track different order types, such as To Go, Dine in, Pick up, and Delivery. Different order types will prompt for different information before ordering. For example Dine in orders will ask for the table first, and delivery order will ask for customer's address.
                             </div>
                         </VerticalCenter>
+                    </Col>
+                </Row>
+                <hr/>
+                <Row className="py-2 p-md-5">
+                    <Col xs="12" md="6" className="my-3 mt-md-5">
+                        <Slider images={[
+                            {src: Syrup1, alt:"order page"},
+                            {src: Syrup2, alt:"payment page"}
+                            ]}/>
                     </Col>
                     <Col xs="12" md="6">
                         <VerticalCenter>
@@ -53,13 +66,17 @@ export default function SyrupPOS() {
                             </div>
                         </VerticalCenter>
                     </Col>
-                    <Col xs="12" md="6" className="mt-5">
-                        
+                </Row>
+                <hr/>
+                <Row className="py-2 p-md-5">
+                    <Col xs="12" md="6" className="my-3 mt-md-5">
+                        <Slider images={[
+                            {src: Syrup5, alt:"back office"},
+                            {src: Syrup4, alt:"report page"},
+                            {src: Syrup6, alt:"menu setup"}
+                            ]}/>
                     </Col>
-                    <Col xs="12" md="6" className="mt-5">
-                        
-                    </Col>
-                    <Col xs="12" md="6">
+                    <Col xs="12" md={{span: 6, order: "first"}}>
                         <VerticalCenter>
                             <div className="content-text paragraph">
                                 Most of what you see in the app can be configurated in the app as well. managers can setup the table map to reflect their restaurant's layout. each button in the menu can be programmed with different functions. adding or removing users can be as easy as a few button clicks.
@@ -67,8 +84,8 @@ export default function SyrupPOS() {
                         </VerticalCenter>
                     </Col>
                 </Row>
-                
-                <div className="text-center m-5 pt-5">
+                <hr/>
+                <div className="text-center m-1 m-md-5 pt-md-5">
                     <span className="h3">Demo: </span>
                     <Button 
                         variant="outline-info"
@@ -81,8 +98,8 @@ export default function SyrupPOS() {
                     >
                         {open?"Hide":"Show"}
                     </Button>
-                    <div className="content-text paragraph">
-                        There are many other things I can't cover in this short description, please check the demo below for more!
+                    <div className="content-text">
+                        There are many other things I can't cover in this short article, if you want to know more about this project, you can try it live on <IconLink icon="globe" link="https://syrup-pos.herokuapp.com/">heroku</IconLink> (default access code is 0, I'm using a free tier, so it may take some time to wake up the deno after some inactivity), read the <IconLink icon={["fab","github"]} link="https://github.com/FanghanHu/Syrup">source code</IconLink> or check out the demo below.
                     </div>
                 </div>
                 <Collapse in={open}>

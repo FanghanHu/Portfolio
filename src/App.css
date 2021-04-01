@@ -8,6 +8,8 @@ body {
 
 .paragraph {
   text-indent: 2em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4em;
 }
 
 .content-text {
