@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[10],{76:function(t,e,i){"use strict";i.r(e),i.d(e,"default",(function(){return c}));var n=i(21),o=i(1),s=i.p+"static/media/PetResume3-min.a933545e.png";function c(t){return Object(o.jsx)("img",Object(n.a)({src:s,alt:"temp"},t))}}}]);
+//# sourceMappingURL=10.5e11580e.chunk.js.map

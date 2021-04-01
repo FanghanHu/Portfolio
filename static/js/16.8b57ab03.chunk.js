@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[16],{69:function(t,c,i){"use strict";i.r(c),i.d(c,"default",(function(){return p}));var n=i(21),e=i(1),o=i.p+"static/media/SyrupPOS5-min.d9ec547c.png";function p(t){return Object(e.jsx)("img",Object(n.a)({src:o,alt:"temp"},t))}}}]);
+//# sourceMappingURL=16.8b57ab03.chunk.js.map
