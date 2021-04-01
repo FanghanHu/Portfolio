@@ -3,8 +3,23 @@ import { Carousel } from "react-bootstrap"
 
 export default function Slider({images, key="key"}) {
     const [selected, setSelected] = useState(null);
+    const firstImage = images[0];
     return (
         <div>
+            {images.length === 1 ?
+            <Suspense fallback={
+                <div style={{
+                    width:"100%",
+                    height: "100%",
+                    fontSize: "3rem",
+                    textAlign: "center"
+                }}>
+                    Loading...
+                </div>
+            }>
+                <firstImage.src width="100%" alt={firstImage.alt} onClick={() => {setSelected(firstImage)}}/>
+            </Suspense>
+            :
             <Carousel>
                 {images.map((image, index) => {
                     return (
@@ -25,6 +40,7 @@ export default function Slider({images, key="key"}) {
                     );
                 })}
             </Carousel>
+            }
             <div 
                 style={{
                     position:"fixed",
