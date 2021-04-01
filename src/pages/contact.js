@@ -8,24 +8,24 @@ export default function Contact() {
                 <h1 className="text-center m-5">I'd love to help!</h1>
                 <Row>
                     <Col xs="12" md="6">
-                    <p className="p-2 h5 paragraph">
+                    <div className="p-2 h5 paragraph">
                         <div className="h3">Open to work: </div>
                         I am currently looking for a web or mobile developer job, 
                         can be front-end, back-end, or full-stack, junior to mid level.
                         I appreciate your time and oppertunities.
-                    </p>
-                    <p className="h5 p-2 paragraph">
+                    </div>
+                    <div className="h5 p-2 paragraph">
                         <div className="h3">Freelance: </div>
                         I am also freelancing on <a href="https://www.fiverr.com/fanghanhu" target="_blank" rel="noreferrer">Fiverr</a>,
                         feel free to PM, text, or email me if there is anything I can help.
-                    </p>
-                    <p className="h5 p-2 paragraph">
+                    </div>
+                    <div className="h5 p-2 paragraph">
                         <div className="h3">Skills: </div>
-                        My skills include: Android, React, Node, Express, 
+                        Here is what I can do: Android, React, Node, Express, 
                         MySQL, MongoDB, Bootstrap, Materialize, jQuery,
                         Java, JavaScript, Typescript, Python, C#, HTML, CSS, Photoshop.
                         Please check out my resume to see the details: <span className="text-nowrap"><FontAwesomeIcon className="text-secondary" icon="file-pdf"/> fanghan_hu_resume.pdf</span>
-                    </p>
+                    </div>
                     </Col>
                     <Col xs="12" md="6" className="h3 text-nowrap d-flex flex-column justify-content-center p-1 px-md-5">
                         <div className="m-2">
