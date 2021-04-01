@@ -1,5 +1,6 @@
 import React, { lazy } from "react";
 import { Col, Container, Row, Tab } from "react-bootstrap";
+import IconLink from "../components/icon-link";
 import Slider from "../components/slider";
 import VerticalCenter from "../components/vertical-center";
 
@@ -11,6 +12,7 @@ export default function PetResume() {
     return (
         <Tab.Pane eventKey="pet-resume">
             <Container>
+                
                 <Row className="py-2 p-md-5">
                     <Col xs="12" md="6" className="my-3 mt-md-5">
                         <Slider images={[
@@ -23,6 +25,10 @@ export default function PetResume() {
                         <VerticalCenter>
                             <div className="content-text paragraph">
                                 Pet Resume is a website that provides dog breed information, user can search for a specific breed or check out random dog breeds. one or multiple pictures and a brief summary is provided for every breed.
+                            </div>
+                            <div className="h4 mt-3 d-flex justify-content-around">
+                                <IconLink icon="globe" link="https://fanghanhu.github.io/petResume/">Website</IconLink>
+                                <IconLink icon={["fab","github"]} link="https://github.com/FanghanHu/petResume">source code</IconLink>
                             </div>
                         </VerticalCenter>
                     </Col>
