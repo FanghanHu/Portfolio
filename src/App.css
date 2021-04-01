@@ -10,6 +10,10 @@ body {
   text-indent: 2em;
 }
 
+.content-text {
+  font-size: 1.4rem;
+}
+
 .text-sky-blue {
   color: rgb(107, 199, 224);
 }

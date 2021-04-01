@@ -9,18 +9,18 @@ export default function Contact() {
                 <Row>
                     <Col xs="12" md="6">
                     <p className="p-2 h5 paragraph">
-                        <h3>Open to work: </h3>
+                        <div className="h3">Open to work: </div>
                         I am currently looking for a web or mobile developer job, 
                         can be front-end, back-end, or full-stack, junior to mid level.
                         I appreciate your time and oppertunities.
                     </p>
                     <p className="h5 p-2 paragraph">
-                        <h3>Freelance: </h3>
+                        <div className="h3">Freelance: </div>
                         I am also freelancing on <a href="https://www.fiverr.com/fanghanhu" target="_blank" rel="noreferrer">Fiverr</a>,
                         feel free to PM, text, or email me if there is anything I can help.
                     </p>
                     <p className="h5 p-2 paragraph">
-                        <h3>Skills: </h3>
+                        <div className="h3">Skills: </div>
                         My skills include: Android, React, Node, Express, 
                         MySQL, MongoDB, Bootstrap, Materialize, jQuery,
                         Java, JavaScript, Typescript, Python, C#, HTML, CSS, Photoshop.
