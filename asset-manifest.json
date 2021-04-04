@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8e68f4a0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.26af8629.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.26af8629.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.f5675020.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f5675020.js.map",
+    "main.js": "/Portfolio/static/js/main.c25f0b03.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c25f0b03.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.cc7f3043.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.cc7f3043.js.map",
     "static/css/2.150d169a.chunk.css": "/Portfolio/static/css/2.150d169a.chunk.css",
     "static/js/2.e7e8ee45.chunk.js": "/Portfolio/static/js/2.e7e8ee45.chunk.js",
     "static/js/2.e7e8ee45.chunk.js.map": "/Portfolio/static/js/2.e7e8ee45.chunk.js.map",
@@ -42,8 +42,8 @@
     "static/js/18.d11421d5.chunk.js.map": "/Portfolio/static/js/18.d11421d5.chunk.js.map",
     "static/js/19.58a93a3e.chunk.js": "/Portfolio/static/js/19.58a93a3e.chunk.js",
     "static/js/19.58a93a3e.chunk.js.map": "/Portfolio/static/js/19.58a93a3e.chunk.js.map",
-    "static/js/20.ab025c5d.chunk.js": "/Portfolio/static/js/20.ab025c5d.chunk.js",
-    "static/js/20.ab025c5d.chunk.js.map": "/Portfolio/static/js/20.ab025c5d.chunk.js.map",
+    "static/js/20.03f1ea02.chunk.js": "/Portfolio/static/js/20.03f1ea02.chunk.js",
+    "static/js/20.03f1ea02.chunk.js.map": "/Portfolio/static/js/20.03f1ea02.chunk.js.map",
     "static/js/21.2658f5de.chunk.js": "/Portfolio/static/js/21.2658f5de.chunk.js",
     "static/js/21.2658f5de.chunk.js.map": "/Portfolio/static/js/21.2658f5de.chunk.js.map",
     "index.html": "/Portfolio/index.html",
@@ -61,7 +61,7 @@
     "static/media/SyrupPOS6-min.49597110.png": "/Portfolio/static/media/SyrupPOS6-min.49597110.png",
     "static/media/SyrupPOS7-min.452079d5.png": "/Portfolio/static/media/SyrupPOS7-min.452079d5.png",
     "static/media/SyrupPOS8-min.e9a25882.png": "/Portfolio/static/media/SyrupPOS8-min.e9a25882.png",
-    "static/media/SyrupPOS9-min.2c7ecc67.png": "/Portfolio/static/media/SyrupPOS9-min.2c7ecc67.png",
+    "static/media/SyrupPOS9-min.1e0669d6.png": "/Portfolio/static/media/SyrupPOS9-min.1e0669d6.png",
     "static/media/fo76db1-min.00abf644.png": "/Portfolio/static/media/fo76db1-min.00abf644.png",
     "static/media/fo76db2-min.b3fd0d1d.png": "/Portfolio/static/media/fo76db2-min.b3fd0d1d.png",
     "static/media/gmp1-min.887c4448.png": "/Portfolio/static/media/gmp1-min.887c4448.png",
@@ -71,10 +71,10 @@
     "static/media/syrup-demo.f11105f3.gif": "/Portfolio/static/media/syrup-demo.f11105f3.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5675020.js",
+    "static/js/runtime-main.cc7f3043.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.e7e8ee45.chunk.js",
     "static/css/main.8e68f4a0.chunk.css",
-    "static/js/main.26af8629.chunk.js"
+    "static/js/main.c25f0b03.chunk.js"
   ]
 }
