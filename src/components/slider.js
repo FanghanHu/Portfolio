@@ -5,7 +5,9 @@ export default function Slider({images, key="key"}) {
     const [selected, setSelected] = useState(null);
     const firstImage = images[0];
     return (
-        <div>
+        <div style={{
+            boxShadow: "5px 5px 15px 0 gray"
+        }}>
             {images.length === 1 ?
             <Suspense fallback={
                 <div style={{
@@ -59,7 +61,8 @@ export default function Slider({images, key="key"}) {
                     style={{
                         overflow:"overlay",
                         border: "4px solid white",
-                        borderRadius: "5px"
+                        borderRadius: "5px",
+                        boxShadow: "0 0 15px 5px gray"
                     }}
                 >
                     {selected?<selected.src width="100%" alt={selected.alt} />:""}
