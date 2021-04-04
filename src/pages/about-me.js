@@ -14,7 +14,8 @@ export default function AboutMe() {
                                 height:"300px",
                                 overflow: "hidden",
                                 border: "5px solid lightskyblue",
-                                margin: "0 auto"
+                                margin: "0 auto",
+                                boxShadow: "0px 0px 10px 0 gray"
                             }}
                         >
                             <img
