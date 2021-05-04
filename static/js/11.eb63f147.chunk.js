@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[11],{64:function(t,i,o){"use strict";o.r(i),o.d(i,"default",(function(){return c}));var e=o(13),r=o(0),s=o.p+"static/media/syrup-demo.f11105f3.gif";function c(t){return Object(r.jsx)("img",Object(e.a)({src:s,alt:"temp"},t))}}}]);
+//# sourceMappingURL=11.eb63f147.chunk.js.map
