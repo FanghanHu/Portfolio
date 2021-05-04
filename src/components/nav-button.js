@@ -1,6 +1,6 @@
 import { Nav } from "react-bootstrap";
 
-export default function NavButton({text, title, eventKey, setTitle}) {
+export default function NavButton({text, title=undefined, eventKey, setTitle}) {
     return (
         <Nav.Item>
             <Nav.Link eventKey={eventKey} bsPrefix="wave" as="div">
