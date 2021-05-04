@@ -10,6 +10,7 @@ import NavButton from "../nav-button";
 import TypeWriterText from "../typewriter-text";
 import Waves from "../waves";
 import "./style.css";
+import MoviewAward from "../../pages/movie-awards";
 
 
 export default function WavePanel() {
@@ -26,6 +27,7 @@ export default function WavePanel() {
                             <NavButton text="Pet Resume" eventKey="pet-resume" setTitle={setTitle}/>
                             <NavButton text="Fallout76 Deck Builder" eventKey="fallout-76-deck-builder" setTitle={setTitle}/>
                             <NavButton text="GMP Website" eventKey="gmp-website" setTitle={setTitle}/>
+                            <NavButton text="Movie Award" eventKey="movie-award" setTitle={setTitle}/>
                         </div>
                         <div className="d-flex flex-wrap h5">
                             <NavButton text="About Me" eventKey="about-me" title="Fanghan Hu" setTitle={setTitle}/>
@@ -48,6 +50,7 @@ export default function WavePanel() {
                         <PetResume/>
                         <Fallout76DeckBuilder/>
                         <GMPWebsite/>
+                        <MoviewAward/>
                         <AboutMe/>
                         <Contact/>
                     </Tab.Content>
