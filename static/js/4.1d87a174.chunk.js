@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[4],{78:function(t,i,n){"use strict";n.r(i),n.d(i,"default",(function(){return p}));var o=n(13),c=n(1),e=n.p+"static/media/fo76db2-min.b3fd0d1d.png";function p(t){return Object(c.jsx)("img",Object(o.a)({src:e,alt:"temp"},t))}}}]);
+//# sourceMappingURL=4.1d87a174.chunk.js.map
