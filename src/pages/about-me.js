@@ -32,33 +32,17 @@ export default function AboutMe() {
                     </Col>
                     <Col>
                         <h2 className="pt-5">
-                            Stay awhile, and listen!
+                                Hi There!
                         </h2>
                         <div className="pt-3 pr-1 pr-md-5 h5 paragraph">
-                            I am Fanghan, the creator of web applications and master of databases!
-                            with the support of the Android army behind my back, I could defeat the
-                            evil giant python before my cup of Java gets cold, and the snake won't even have time
-                            to React!
+                            I'm Fanghan, I'm a web developer, I create websites, single page apps, and progressive web apps. I use React, Redux, Bootstrap, Materialize, Node, Express, MySQL and MongoDB.
+                            Other than the websites, I also create Android apps and Minecraft mods for fun.
                         </div>
                     </Col>
                 </Row>
-                <div className="p-1 p-md-5 h5 paragraph">
-                    During my years of advanture, I have sailed the <a href="https://www.youtube.com/watch?v=2OmDnzlXeqw" target="_blank" rel="noreferrer">Sea of Simulation</a>,
-                    traveled <a href="https://www.youtube.com/watch?v=dwDns8x3Jb4" target="_blank" rel="noreferrer">Around the World</a>,
-                    found the <a href="https://www.youtube.com/watch?v=0NKUpo_xKyQ" target="_blank" rel="noreferrer">Lights</a> that guided me
-                    to the <a href="https://www.youtube.com/watch?v=NOMa56y_Was" target="_blank" rel="noreferrer">End of Line</a>, only to find
-                    out that <a href="https://www.youtube.com/watch?v=AISkUx8iaBo" target="_blank" rel="noreferrer">The Game has Changed</a>
-                    , <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank" rel="noreferrer">In the End</a> I realized that 
-                    I've always been <a href="https://www.youtube.com/watch?v=MnSlJQvMIt0" target="_blank" rel="noreferrer">On the Move</a>, never have 
-                    I <a href="https://www.youtube.com/watch?v=F9Ay74LfKd4" target="_blank" rel="noreferrer">Notice</a> the <a 
-                    href="https://www.youtube.com/watch?v=F9Ay74LfKd4" target="_blank" rel="noreferrer">Magic</a> of coding.
-                    with that, I have found my new <a href="https://www.youtube.com/watch?v=qdMwV8cfzwI" target="_blank" rel="noreferrer">Identity</a>, 
-                    My name is Fanghan, it is <a href="https://www.youtube.com/watch?v=9o_jp2F3uJU" target="_blank" rel="noreferrer">More than Just a Name</a>,
-                    it is the name of a shaper, a maker, and a freelancer! 
-                </div>
-                <div className="px-1 px-md-5 pb-5 h5 mb-0 paragraph">
-                    Ahem... Sorry for all that nonsense, let's waste no more time, and get down to business,
-                    so... <a href="https://www.youtube.com/watch?v=jVy0JWX5XEY" target="_blank" rel="noreferrer">do you want to develop an app?</a> (&gt;v0)
+                <div className="p-1 p-md-5 m-0 h5 paragraph">
+                    I love programming, I've mastered many different programming languages, I first started with Java, then Javascript, Typescript, and now Python, I've also worked on projects with C# and VBS. 
+                    I love pets and video games, I have 4 budgies and I play Starcraft2, Dota2 and Apex Legends. Please check out my past projects, you can find them in the navbar at the top left corner, I hope you will find something you like. 
                 </div>
             </Container>
         </Tab.Pane>
